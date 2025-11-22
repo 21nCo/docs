@@ -21,14 +21,19 @@ const sidebars = {
       id: "memotron/quickstart",
     },
     {
-      type: "category",
+      type: "doc",
       label: "Installation",
-      link: {
-        type: "doc",
-        id: "memotron/installation",
-      },
-      items: ["memotron/preview-apps"],
+      id: "memotron/installation",
     },
+    // {
+    //   type: "category",
+    //   label: "Installation",
+    //   link: {
+    //     type: "doc",
+    //     id: "memotron/installation",
+    //   },
+    //   items: ["memotron/preview-apps"],
+    // },
     {
       type: "html",
       value: "Product deep dive",
